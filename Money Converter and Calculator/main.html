@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="5th.css">
+<title>JavaScript</title>
+</head>
+<body>
+<script>alert('Welcome to my Webpage')</script>
+<script src="js.js"></script>
+<h1><center><u>JavaScript Variables and Functions</u></center></h1>
+<div class="b">
+<h1>Calculator:</h1>
+<form>
+<h2>Enter First Number:</h2>
+<input type="text" name="fn" id="fn">
+<h2>Enter Second Number:</h2>
+<input type="text" name="sn" id="sn">
+<h2>Operations:</h2>
+<ol>
+<li>Add</li>
+<li>Subtract</li>
+<li>Multiply</li>
+<li>Divide</li>
+<li>Remainder</li>
+</ol>
+<h2>Enter Option:</h2>
+<input type="number" name="opt" id="opt">
+<p id="pid"></p>
+</form>
+ 
+<button onclick="calc()">Calculate</button>
+</div>
+<br>
+<div class="a">
+<h1>Money Conversion(to INR):</h1>
+<h2>Enter amount in other currency:</h2>
+<input type="number" name="curr" id="curr">
+<select name="currency" id="curren">
+<option value="USD">United States Dollars</option>
+<option value="KID">Kuwaiti Dinars</option>
+<option value="BP">British Pound</option>
+<option value="EU">Euro</option>
+</select>
+<p id="pid2"></p>
+<button onclick="monconv()">Convert</button>
+</div>
+<center><button onclick="feedback()">Enter your Feedback on our webpage</button></center>
+</body>
+</html>
