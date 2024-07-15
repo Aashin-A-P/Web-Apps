@@ -1,0 +1,17 @@
+input[type=text] {
+    transition: width 1.0s ease;
+    }
+    input[type=text]:hover { width: 100%;
+    }
+    .button1:hover {
+    background-color: #4CAF50; color: white;
+    }
+    body {
+    background-color:black; color:green; background-image: url('space2.png');
+    }
+    .a {
+    align-items: center; width: 50%;
+    border: 5px solid white;padding: 20px;
+    }
+    
+    

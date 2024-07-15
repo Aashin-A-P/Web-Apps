@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="css3.css">
+<title>
+Galactic Explorers
+</title>
+</head>
+<body>
+
+<center><h1><u><b>Space Travel</b></u></h1></center>
+<img src="travel.webp" width="100%" height="800">
+<div class="a">
+<h1>SpaceX Ticket Booking:</h1>
+<hr color="green">
+<form>
+
+<h2>First Name:</h2>
+<input class="b" type="text" name="FirstName" id="fn">
+<h2>Last Name:</h2>
+<input class="b" type="text" name="LastName" id="ln">
+<h2>Mobile No:</h2>
+ 
+<input type="number" name="Mobile" id="mobno">
+<h2>Email Id:</h2>
+<input type="email" name="email" id="email">
+<h2>Enter Secret Identification ID:</h2>
+<input type="password" name="Secret" id="SID">
+<h2>Date of Booking:</h2>
+<input class="c" type="date" name="date" id="date">
+<h2>Time of Booking:</h2>
+<input class="c" type="time" name="time" id="time">
+<h2>
+<button class="button1" onclick="alert('Booking under progress')" style="border-radius: 50px; height: 100px;width: 50%;font-size: larger;">Click Me</button>
+</h2>
+<h2>Insert ID proof as softcopy:</h2>
+<input type="file" id="myfile" name="myfile">
+<h2>Select your Destination:</h2>
+<select class="c" name="Destination" id="dest" style="height: 50px; width:
+ 
+20%;">
+ 
+
+<option value="Mars">Mars</option>
+<option value="Jupiter">Jupiter</option>
+<option value="Saturn">Saturn</option>
+<option value="Uranus">Uranus</option>
+<option value="Neptune">Neptune</option>
+</select>
+<h2>Your age:</h2>
+<input type="range" id="age" name="age" min="0" max="150">
+<h2>Select your Launch Vehicle:</h2>
+<h3>
+<input type="radio" id="falcon" name="lv" value="falcon">
+<label for="falcon">Falcon</label><br>
+<input type="radio" id="ariane" name="lv" value="ariane">
+<label for="ariane">Ariane</label><br>
+<input type="radio" id="atlas" name="lv" value="atlas">
+<label for="atlas">Atlas</label><br><br>
+</h3>
+<h2><label for="favcolor">Select your launch vehicle color:</label></h2>
+<input type="color" id="lvcolor" name="lvcolor" value="#ff0000">
+<h2>Reason for visit:</h2>
+<h3>
+<input type="checkbox" id="explore" name="rfv" value="explore">
+<label for="explore">Explore Space</label><br>
+<input type="checkbox" id="enter" name="rfv" value="enter">
+<label for="enter">Entertainment</label><br>
+<input type="checkbox" id="research" name="rfv" value="research">
+<label for="research">Research</label><br>
+</h3>
+<center><input type="image" src="submit.jpg" alt="submit"></center>
+</form>
+</div>
+ 
+</body>
+</html>
