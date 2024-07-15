@@ -1,0 +1,50 @@
+body
+{
+
+}
+h3
+{
+
+}
+p{
+
+}
+ 
+
+
+background-color : cornsilk ;
+
+
+
+color: blue;
+
+
+color: crimson;
+ 
+table {
+font-family: arial, sans-serif; border-collapse: collapse; width: 100%;
+}
+
+th
+{
+border: 4px solid #dddddd; text-align: left;
+padding: 8px; color: black;
+background-color: red; font-size: 200%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
+Arial, sans-serif;
+}
+td
+{
+border: 4px solid #dddddd; text-align: left;
+padding: 8px; color: white ;
+background-color: green;
+font-family: 'Times New Roman', Times, serif; font-size: 150%;
+}
+ol
+{
+color: blue;
+}
+a
+{
+color:purple;
+}
