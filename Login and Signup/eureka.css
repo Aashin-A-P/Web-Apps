@@ -1,0 +1,15 @@
+form{
+    background-image: linear-gradient(to right,green , greenyellow); border: 1px solid black;
+    border-radius: 10px; width: 400px;
+    margin: 60px auto 0 auto; padding-left: 15px; padding-bottom: 15px; color:white;
+    }
+    .a
+    {
+    color:white;
+    background-image: linear-gradient(to right,green , greenyellow); height: 100px;
+    }
+    input{
+    color:green; height: 25px; width:50%;
+    }
+    
+    

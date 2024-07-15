@@ -1,0 +1,36 @@
+body{
+    margin:0%;
+    background-color:white;
+    }
+    div{
+    background-image: linear-gradient(to right,green , greenyellow); border: 1px solid black;
+    border-radius: 10px; width: 400px;
+    margin: 60px auto 0 auto; padding-left: 15px; padding-bottom: 15px;
+    }
+    input{
+    width: 40%; height:25px;
+    margin-bottom: 20px; padding-bottom: 15px; border-radius: 5px; padding-right: 25px;
+    }
+    ::placeholder{
+    font-size: large;
+    }
+    button{
+    height: 50px; width:50%;
+    font-size: larger;
+    }
+    a{
+    font-size: larger; text-decoration: none; color:white;
+    }
+    .b
+     
+    {
+    width: 80%;
+    }
+    h1,h2{
+    color:white;
+    }
+    .z{
+    display: none;
+    
+    }
+    
