@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bmi.css">
+        <title>BMI Calculator</title>
+    </head>
+    <body>
+        <script src="bmi.js"></script>
+        <h1><u><center>Body Mass Index</center></u></h1>
+        <img src="healthy.jpg" alt="Health is Wealth" width="100%" height="500px">
+        <h2>What is Body Mass Index?</h2>
+        <h3>Body mass index (BMI) is a tool that healthcare providers use to estimate the amount of body fat by using your height and weight measurements. It can help assess risk factors for certain health conditions. The BMI is not always an accurate representation of body fatness.</h3>
+        <form>
+            <h1><center><u>BMI Calculator</u></center></h1>
+            <h2><label for="name">Enter your name:</label></h2>
+            <input type="text" name="name" id="name">
+            <h2><label for="age">Enter your age:</label></h2>
+            <input type="number" name="age" id="age">
+            <h2><label for="gen">Enter your Gender:</label></h2>
+            <select name="Gender" id="gen">
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="O">Other</option>
+            </select>
+            <h2><label for="height">Enter your height(in cm):</label></h2>
+            <input type="number" name="height" id="height">
+            <h2><label for="weight">Enter your weight(in kg):</label></h2>
+            <input type="number" name="weight" id="weight">
+            <br>
+        </form>
+        <hr>
+        <center><button onclick="BMI()">Calculate BMI</button></center>
+        <h1>Result:</h1>
+        <h2 id="name1"></h2>
+        <h2 id="age1"></h2>
+        <h2 id="gen1"></h2>
+        <h2 id="bmi1"></h2>
+        <h2 id="comm"></h2>
+    </body>
+</html>

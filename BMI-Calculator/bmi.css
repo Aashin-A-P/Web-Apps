@@ -1,0 +1,31 @@
+body{
+    background-color: green;
+    color:white;
+    border:5px solid white;
+}
+form {
+    margin: 0 auto; /* set left and right margin to auto */
+    width: 50%; /* set the width of the form */
+    border: 5px solid black;
+    padding: 10px;
+}
+input,select{
+    color:green;
+    width:25%;
+    height: 25px;
+}
+button
+{
+    border:2px solid black;
+    width:40%;
+    height: 40px;
+    background-color: green;
+    color:white;
+    font-size: larger;
+    border-radius: 20px;
+}
+button:hover
+{
+    background-color: white;
+    color:green;
+}
